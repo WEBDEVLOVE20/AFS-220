@@ -1,0 +1,27 @@
+.navbar-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 2%;
+    background-color: palevioletred;
+}
+
+.links {
+    text-decoration: none;
+    color: white;
+    border: none;
+    background-color: palevioletred;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.logout-button {
+    background-color: palevioletred;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    border: none;
+}
+
+.logout-button:hover {
+    background-color: lightskyblue;
+}
