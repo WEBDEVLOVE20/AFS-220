@@ -24,7 +24,7 @@ console.log(userToken)
   return (
     <div className='login-container'>
         <div>
-            <img src='https://img.icons8.com/fluent/64/000000/twitter.png' alt="logo"/>
+            <img src='https://freepikpsd.com/media/2019/11/flower-transparent-background-6-Transparent-Images.png' width="200px" alt="logo"/>
         </div>
       <form onSubmit={handleSubmit}>
         <input 
@@ -45,7 +45,7 @@ console.log(userToken)
           onChange={(e) => setPassword(e.target.value)}
         />
         <br/>
-        <Link to="/tweets"><button className='login-button'> Log in </button> </Link>
+        <Link to="/"><button className='login-button'> Log in </button> </Link>
       </form>
     </div>
   );
