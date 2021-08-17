@@ -1,14 +1,14 @@
 import React from 'react';
-import './home.css';
 
-const Home = () => {
+
+const Fall = () => {
   return (
     <div>
       <div class="bg-dark py-5">
         <div class="container px-4 px-lg-5 my-5">
           <div class="text-center text-white">
-            <h1 class="display-4 fw-bolder">Best in Bloom</h1>
-            <p class="lead fw-normal text-white-50 mb-0">Flowers & Gifts</p>
+            <h1 class="display-4 fw-bolder">Fall Arrangements</h1>
+            <p class="lead fw-normal text-white-50 mb-0">Fill your home with fall colors!</p>
           </div>
         </div>
       </div>
@@ -19,7 +19,7 @@ const Home = () => {
             <div class="col mb-5">
                 <div class="card h-100">
                     {/* Product image */}
-                    <img class="card-img-top" src="https://images.unsplash.com/photo-1612438115954-ae5a72df09eb?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGZsb3dlciUyMGFycmFuZ2VtZW50c3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="flowers" />
+                    <img class="card-img-top" src="https://images.unsplash.com/photo-1558879787-4c4aea1fbb83?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjR8fGZsb3dlciUyMGJvdXF1ZXR8ZW58MHwxfDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60" alt="flowers" />
                     {/* Product details */}
                     <div class="card-body p-4">
                         <div class="text-center">
@@ -40,7 +40,7 @@ const Home = () => {
                     {/* Sale badge */}
                     <div class="badge bg-dark text-white position-absolute" style={{top: '0.5rem', right: '0.5rem'}} >Sale</div>
                     {/* Product image */}
-                    <img class="card-img-top" src="https://images.unsplash.com/photo-1599031426429-c3ae483f37fb?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGZsb3dlciUyMGFycmFuZ2VtZW50c3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="flowers" />
+                    <img class="card-img-top" src="https://images.unsplash.com/photo-1566179173977-d0e1842e6533?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Njd8fGZsb3dlciUyMGJvdXF1ZXR8ZW58MHwxfDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60" alt="flowers" />
                     {/* Product details */}
                     <div class="card-body p-4">
                         <div class="text-center">
@@ -70,9 +70,9 @@ const Home = () => {
                     {/* Sale badge */}
                     <div class="badge bg-dark text-white position-absolute" style={{top:'0.5rem', right:'0.5rem'}}>Sale</div>
                     {/* Product image */}
-                    <img class="card-img-top" src="https://images.unsplash.com/photo-1582912220044-23b74ca4b20f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Zmxvd2VyJTIwYXJyYW5nZW1lbnRzfGVufDB8MXwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60" alt="flowers" />
+                    <img class="card-img-top" src="https://images.unsplash.com/photo-1585538021714-6e27e9fa1165?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjZ8fGZsb3dlciUyMGJvdXF1ZXR8ZW58MHwxfDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60" alt="flowers" />
                     {/* Product details */}
-                    <div class="card-body p-4">
+                    <div class="card-body p-4"> 
                         <div class="text-center">
                             {/* Product name */}
                             <h5 class="fw-bolder">Sale Item</h5>
@@ -90,7 +90,7 @@ const Home = () => {
             <div class="col mb-5">
                 <div class="card h-100">
                     {/* Product image */}
-                    <img class="card-img-top" src="https://images.unsplash.com/photo-1613508636209-cd13d894e15b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjN8fGZsb3dlciUyMGFycmFuZ2VtZW50c3xlbnwwfDF8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60" alt="flowers" />
+                    <img class="card-img-top" src="https://images.unsplash.com/photo-1610827255424-0ed21ae4f50f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzg2fHxmbG93ZXIlMjBib3VxdWV0fGVufDB8MXwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60" alt="flowers" />
                     {/* Product details */}
                     <div class="card-body p-4">
                         <div class="text-center">
@@ -119,7 +119,7 @@ const Home = () => {
                     {/* Sale badge */}
                     <div class="badge bg-dark text-white position-absolute" style={{top:'0.5rem', right:'0.5rem'}}>Sale</div>
                     {/* Product image */}
-                    <img class="card-img-top" src="https://images.unsplash.com/photo-1618667066353-06982fc2ea72?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fGZsb3dlciUyMGFycmFuZ2VtZW50c3xlbnwwfDF8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60" alt="flowers" />
+                    <img class="card-img-top" src="https://images.unsplash.com/photo-1567696153798-9111f9cd3d0d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8c3VuZmxvd2VyJTIwYm91cXVldHxlbnwwfDF8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60" alt="flowers" />
                     {/* Product details */}
                     <div class="card-body p-4">
                         <div class="text-center">
@@ -139,7 +139,7 @@ const Home = () => {
             <div class="col mb-5">
                 <div class="card h-100">
                     {/* Product image */}
-                    <img class="card-img-top" src="https://images.unsplash.com/photo-1494336956603-39a3641efa1c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTV8fGZsb3dlciUyMGFycmFuZ2VtZW50c3xlbnwwfDF8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60" alt="flowers" />
+                    <img class="card-img-top" src="https://images.unsplash.com/photo-1613999843658-b69b1926ba95?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjYyfHxmbG93ZXIlMjBib3VxdWV0fGVufDB8MXwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60" alt="flowers" />
                     {/* Product details */}
                     <div class="card-body p-4">
                         <div class="text-center">
@@ -160,7 +160,7 @@ const Home = () => {
                     {/* Sale badge */}
                     <div class="badge bg-dark text-white position-absolute" style={{top:'0.5rem', right:'0.5rem'}}>Sale</div>
                     {/* Product image */}
-                    <img class="card-img-top" src="https://images.unsplash.com/photo-1561181286-d3fee7d55364?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTd8fGZsb3dlciUyMGFycmFuZ2VtZW50c3xlbnwwfDF8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60" alt="flowers" />
+                    <img class="card-img-top" src="https://images.unsplash.com/photo-1619280783292-1fb003af031b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTIyfHxmbG93ZXIlMjBib3VxdWV0fGVufDB8MXwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60" alt="flowers" />
                     {/* Product details */}
                     <div class="card-body p-4">
                         <div class="text-center">
@@ -188,7 +188,7 @@ const Home = () => {
             <div class="col mb-5">
                 <div class="card h-100">
                     {/* Product image */}
-                    <img class="card-img-top" src="https://images.unsplash.com/photo-1617044243927-6d36b5694372?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjEyfHxmbG93ZXIlMjBhcnJhbmdlbWVudHN8ZW58MHwxfDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60" alt="flowers" />
+                    <img class="card-img-top" src="card-img-top" src="https://images.unsplash.com/photo-1504383017-d93917065002?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzh8fGZhbGwlMjBmbG93ZXIlMjBib3VxdWV0fGVufDB8MXwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60" alt="flowers" />
                     {/* Product details */}
                     <div class="card-body p-4">
                         <div class="text-center">
@@ -219,4 +219,4 @@ const Home = () => {
   );
 }
 
-export default Home;
+export default Fall;
