@@ -4,7 +4,7 @@ import './home.css';
 const Home = () => {
   return (
     <div>
-      <div class="bg-dark py-5">
+      <div class="title-container">
         <div class="container px-4 px-lg-5 my-5">
           <div class="text-center text-white">
             <h1 class="display-4 fw-bolder">Best in Bloom</h1>

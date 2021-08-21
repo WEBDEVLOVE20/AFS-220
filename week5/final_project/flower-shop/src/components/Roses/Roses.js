@@ -1,14 +1,14 @@
 import React from 'react';
 
 
-const Wedding = () => {
+const Roses = () => {
   return (
     <div>
-      <div class="title-container-wed">
+      <div class="title-container-roses">
         <div class="container px-4 px-lg-5 my-5">
           <div class="text-center text-white">
-            <h1 class="display-4 fw-bolder">Wedding Arrangements</h1>
-            <p class="lead fw-normal text-white-50 mb-0">The best flowers for your special day.</p>
+            <h1 class="display-4 fw-bolder">Rose Arrangements</h1>
+            <p class="lead fw-normal text-white-50 mb-0">A romantic gesture for any occasion.</p>
           </div>
         </div>
       </div>
@@ -19,7 +19,7 @@ const Wedding = () => {
             <div class="col mb-5">
                 <div class="card h-100">
                     {/* Product image */}
-                    <img class="card-img-top" src="https://images.unsplash.com/photo-1522142540300-60ae5b4bc569?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTkwfHxmbG93ZXIlMjBhcnJhbmdlbWVudHN8ZW58MHwxfDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60" alt="flowers" />
+                    <img class="card-img-top" src="https://images.unsplash.com/photo-1580740132087-761c25cacbf6?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTF8fHJvc2VzfGVufDB8MXwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60" alt="flowers" />
                     {/* Product details */}
                     <div class="card-body p-4">
                         <div class="text-center">
@@ -40,7 +40,7 @@ const Wedding = () => {
                     {/* Sale badge */}
                     <div class="badge bg-dark text-white position-absolute" style={{top: '0.5rem', right: '0.5rem'}} >Sale</div>
                     {/* Product image */}
-                    <img class="card-img-top" src="https://images.unsplash.com/photo-1484677460604-9c1334e783a1?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTcyfHxmbG93ZXIlMjBhcnJhbmdlbWVudHN8ZW58MHwxfDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60" alt="flowers" />
+                    <img class="card-img-top" src="https://images.unsplash.com/photo-1592023066970-922286ffbf5c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fHJvc2UlMjBmbG93ZXIlMjBhcnJhbmdlbWVudHN8ZW58MHwxfDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60" alt="flowers" />
                     {/* Product details */}
                     <div class="card-body p-4">
                         <div class="text-center">
@@ -70,9 +70,9 @@ const Wedding = () => {
                     {/* Sale badge */}
                     <div class="badge bg-dark text-white position-absolute" style={{top:'0.5rem', right:'0.5rem'}}>Sale</div>
                     {/* Product image */}
-                    <img class="card-img-top" src="https://images.unsplash.com/photo-1525258946800-98cfd641d0de?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NzN8fHdlZGRpbmclMjBmbG93ZXIlMjBib3VxdWV0fGVufDB8MXwwfHw%3D&auto=format&fit=crop&w=400&q=60" alt="flowers" />
+                    <img class="card-img-top" src="https://images.unsplash.com/photo-1550042432-35259bb3fb61?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTc5fHxyb3Nlc3xlbnwwfDF8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60" alt="flowers" />
                     {/* Product details */}
-                    <div class="card-body p-4">
+                    <div class="card-body p-4"> 
                         <div class="text-center">
                             {/* Product name */}
                             <h5 class="fw-bolder">Sale Item</h5>
@@ -90,7 +90,7 @@ const Wedding = () => {
             <div class="col mb-5">
                 <div class="card h-100">
                     {/* Product image */}
-                    <img class="card-img-top" src="https://images.unsplash.com/photo-1525096122400-e43fa92b933f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NzR8fGZsb3dlciUyMGFycmFuZ2VtZW50c3xlbnwwfDF8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60" alt="flowers" />
+                    <img class="card-img-top" src="https://images.unsplash.com/photo-1599733594230-6b823276abcc?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDV8fHJvc2VzfGVufDB8MXwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60" alt="flowers" />
                     {/* Product details */}
                     <div class="card-body p-4">
                         <div class="text-center">
@@ -119,7 +119,7 @@ const Wedding = () => {
                     {/* Sale badge */}
                     <div class="badge bg-dark text-white position-absolute" style={{top:'0.5rem', right:'0.5rem'}}>Sale</div>
                     {/* Product image */}
-                    <img class="card-img-top" src="https://images.unsplash.com/photo-1508182398296-11adf90352d0?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTMwfHx3ZWRkaW5nJTIwZmxvd2VyJTIwYm91cXVldHxlbnwwfDF8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60" alt="flowers" />
+                    <img class="card-img-top" src="https://images.unsplash.com/photo-1613508636209-cd13d894e15b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzd8fHJvc2UlMjBmbG93ZXIlMjBhcnJhbmdlbWVudHN8ZW58MHwxfDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60" alt="flowers" />
                     {/* Product details */}
                     <div class="card-body p-4">
                         <div class="text-center">
@@ -139,7 +139,7 @@ const Wedding = () => {
             <div class="col mb-5">
                 <div class="card h-100">
                     {/* Product image */}
-                    <img class="card-img-top" src="https://images.unsplash.com/photo-1521463405500-2bbe81bb2645?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTQyfHxmbG93ZXIlMjBhcnJhbmdlbWVudHN8ZW58MHwxfDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60" alt="flowers" />
+                    <img class="card-img-top" src="https://images.unsplash.com/photo-1553978459-73851a239eb0?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTAzfHxyb3NlJTIwZmxvd2VyJTIwYXJyYW5nZW1lbnRzfGVufDB8MXwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60" alt="flowers" />
                     {/* Product details */}
                     <div class="card-body p-4">
                         <div class="text-center">
@@ -160,7 +160,7 @@ const Wedding = () => {
                     {/* Sale badge */}
                     <div class="badge bg-dark text-white position-absolute" style={{top:'0.5rem', right:'0.5rem'}}>Sale</div>
                     {/* Product image */}
-                    <img class="card-img-top" src="https://images.unsplash.com/photo-1535573079-f0ea762f68fc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Njl8fHdlZGRpbmclMjBmbG93ZXIlMjBib3VxdWV0fGVufDB8MXwwfHw%3D&auto=format&fit=crop&w=400&q=60" alt="flowers" />
+                    <img class="card-img-top" src="https://images.unsplash.com/photo-1623693132386-60b58c228dce?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDR8fHJvc2UlMjBmbG93ZXIlMjBhcnJhbmdlbWVudHN8ZW58MHwxfDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60" alt="flowers" />
                     {/* Product details */}
                     <div class="card-body p-4">
                         <div class="text-center">
@@ -188,7 +188,7 @@ const Wedding = () => {
             <div class="col mb-5">
                 <div class="card h-100">
                     {/* Product image */}
-                    <img class="card-img-top" src="card-img-top" src="https://images.unsplash.com/photo-1521543832500-49e69fb2bea2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzF8fHdlZGRpbmclMjBmbG93ZXIlMjBib3VxdWV0fGVufDB8MXwwfHw%3D&auto=format&fit=crop&w=400&q=60" alt="flowers" />
+                    <img class="card-img-top" src="card-img-top" src="https://images.unsplash.com/photo-1550512108-2c2184f5dac4?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTMzfHxyb3NlJTIwZmxvd2VyJTIwYXJyYW5nZW1lbnRzfGVufDB8MXwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60" alt="flowers" />
                     {/* Product details */}
                     <div class="card-body p-4">
                         <div class="text-center">
@@ -219,4 +219,4 @@ const Wedding = () => {
   );
 }
 
-export default Wedding;
+export default Roses;

@@ -18,15 +18,8 @@ const Navbar = ({handleUserLogout}) => {
                         <li class="nav-item"><Link to='/login' class="nav-link">Login</Link></li>
                         <li class="nav-item"><Link to='/wedding' class="nav-link">Wedding</Link></li>
                         <li class="nav-item"><Link to='/fall' class="nav-link">Fall</Link></li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#!" role="button" data-bs-toggle="dropdown" aria-expanded="false">Shop</a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#!">All Products</a></li>
-                                <li><hr class="dropdown-divider" /></li>
-                                <li><a class="dropdown-item" href="#!">Popular Items</a></li>
-                                <li><a class="dropdown-item" href="#!">New Arrivals</a></li>
-                            </ul>
-                        </li>
+                        <li class="nav-item"><Link to='/spring' class="nav-link">Spring</Link></li>
+                        <li class="nav-item"><Link to='/roses' class="nav-link">Roses</Link></li>
                     </ul>
                     <form class="d-flex">
                         <button class="btn btn-outline-dark" type="submit">
@@ -38,11 +31,6 @@ const Navbar = ({handleUserLogout}) => {
               </div>
           </div>
       </div>
-      {/* <ul className='navbar-container'>
-        <Link to='/' className='links'> Home </Link>
-        <Link to='/login' className='links'> Log in </Link>
-        <Link to='/login'><button className='logout-button' onClick={handleUserLogout}> Log out </button> </Link>
-      </ul> */}
     </div>
   );
 }

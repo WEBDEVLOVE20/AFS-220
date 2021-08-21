@@ -6,6 +6,8 @@ import Home from './components/Home/Home';
 import Login from './components/Login/Login';
 import Wedding from './components/Wedding/Wedding';
 import Fall from './components/Fall/Fall.js';
+import Spring from './components/Spring';
+import Roses from './components/Roses/Roses';
 
 
 const App = () => {
@@ -19,6 +21,8 @@ const App = () => {
         <Route path='/login' component={Login} />
         <Route path='/wedding' component={Wedding} />
         <Route path='/fall' component={Fall} />
+        <Route path='/spring' component={Spring} />
+        <Route path='/roses' component={Roses} />
       </Switch>
     </div>
   );
